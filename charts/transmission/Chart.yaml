@@ -26,3 +26,8 @@ version: 0.1.0
 appVersion: "4.0.5"
 maintainers:
   - name: Zoran Olujic
+
+annotations:
+  artifacthub.io/images: |
+    - name: transmission
+      image: ghcr.io/linuxserver/transmission:4.0.5
