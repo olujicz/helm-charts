@@ -1,6 +1,23 @@
 apiVersion: v1
 entries:
   transmission:
+  - annotations:
+      artifacthub.io/images: |
+        - name: transmission
+          image: ghcr.io/linuxserver/transmission:4.0.5
+    apiVersion: v2
+    appVersion: 4.0.5
+    created: "2024-04-19T14:22:33.550616359Z"
+    description: A Helm chart for Kubernetes to deploy transmission
+    digest: 7d259f3e15fa5bb931300e712331be9b74bf3d48f54a29262fcec85ac4768808
+    icon: https://raw.githubusercontent.com/transmission/transmission/master/web/public_html/images/webclip-icon.png
+    maintainers:
+    - name: Zoran Olujic
+    name: transmission
+    type: application
+    urls:
+    - https://github.com/olujicz/helm-charts/releases/download/transmission-0.1.1/transmission-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: 4.0.5
     created: "2024-04-19T11:17:44.07460787Z"
@@ -13,4 +30,4 @@ entries:
     urls:
     - https://github.com/olujicz/helm-charts/releases/download/transmission-0.1.0/transmission-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-19T11:17:44.074613891Z"
+generated: "2024-04-19T14:22:33.550653569Z"
