@@ -43,6 +43,8 @@ strategy:
   type: Recreate
 
 service:
+  type: ClusterIP
+  enabled: true
   webui:
     ports:
       webui: 
